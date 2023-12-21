@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Weather</title>
+      <link rel ="icon" href="./css/imgs/icon.png">
+  <link rel="stylesheet" href="./css/style.css">
+    </head> 
+    <body>
+      <div class="main-content">
+        {{!-- <div class="bg-box">
+      <img src="/css/imgs/th.jpg" alt="">
+         </div> --}}
+        {{>header}}
+        <h3>Use this site to get your weather</h3>
+
+        <form>
+          <input placeholder="location">
+          <button>Search</button>
+        </form>
+        <b><p id="msg-1"></p></b>
+        <b><p id="msg-2"></p></b>
+        <b><p id="msg-3"></p></b>
+        <b><p id="msg-4"></p></b>
+        <b><p id="msg-5"></p></b>
+        <b><p id="msg-6"></p></b>
+        <b><p id="msg-7"></p></b>
+        <b><p id="msg-8"></p></b>
+        <b><p id="msg-9"></p></b>
+
+      </div>
+      
+       {{>footer}}
+    </body>
+    <script src="/js/app.js">
+    </script>
+</html>
