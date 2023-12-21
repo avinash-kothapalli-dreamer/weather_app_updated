@@ -72,7 +72,7 @@ app.get('/weather',(req,res)=>{
                     //temperarure_in_celsius:forecastdata.current.temp_c,
                     
                     //forecast:forecastdata,
-                    address:req.query.address
+                    //address:req.query.address
                 })
             }
         })
